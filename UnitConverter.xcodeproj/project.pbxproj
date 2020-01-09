@@ -12,6 +12,20 @@
 		E1CD33FE23C3986900A4E819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CD33FC23C3986900A4E819 /* Main.storyboard */; };
 		E1CD340023C3987400A4E819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1CD33FF23C3987400A4E819 /* Assets.xcassets */; };
 		E1CD340323C3987400A4E819 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CD340123C3987400A4E819 /* LaunchScreen.storyboard */; };
+		E1DE6B6623C50B1200B16479 /* CurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DE6B6523C50B1200B16479 /* CurrencyViewController.swift */; };
+		E1DE6B6823C50B1F00B16479 /* DistanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DE6B6723C50B1F00B16479 /* DistanceViewController.swift */; };
+		E1DE6B6A23C50B3100B16479 /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DE6B6923C50B3100B16479 /* WeightViewController.swift */; };
+		E1DE6B6C23C50B4300B16479 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DE6B6B23C50B4300B16479 /* TimeViewController.swift */; };
+		E1DE6B6E23C50B7500B16479 /* CurrencyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DE6B6D23C50B7500B16479 /* CurrencyTableViewController.swift */; };
+		E1DE6B7023C50B8200B16479 /* DistanceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DE6B6F23C50B8200B16479 /* DistanceTableViewController.swift */; };
+		E1DE6B7223C50B9500B16479 /* WeightTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DE6B7123C50B9500B16479 /* WeightTableViewController.swift */; };
+		E1DE6B7423C50BA000B16479 /* TimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DE6B7323C50BA000B16479 /* TimeTableViewController.swift */; };
+		E1DE6B7623C5126500B16479 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DE6B7523C5126500B16479 /* Unit.swift */; };
+		E1DE6B7823C521C500B16479 /* UnitsTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DE6B7723C521C500B16479 /* UnitsTabViewController.swift */; };
+		E1F11CD423C5501400BE9D57 /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F11CD323C5501400BE9D57 /* CurrencyTableViewCell.swift */; };
+		E1F11CD623C5502200BE9D57 /* DistanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F11CD523C5502200BE9D57 /* DistanceTableViewCell.swift */; };
+		E1F11CD823C5503000BE9D57 /* WeightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F11CD723C5503000BE9D57 /* WeightTableViewCell.swift */; };
+		E1F11CDA23C5503E00BE9D57 /* TimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F11CD923C5503E00BE9D57 /* TimeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +36,20 @@
 		E1CD33FF23C3987400A4E819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1CD340223C3987400A4E819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1CD340423C3987400A4E819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1DE6B6523C50B1200B16479 /* CurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewController.swift; sourceTree = "<group>"; };
+		E1DE6B6723C50B1F00B16479 /* DistanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceViewController.swift; sourceTree = "<group>"; };
+		E1DE6B6923C50B3100B16479 /* WeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightViewController.swift; sourceTree = "<group>"; };
+		E1DE6B6B23C50B4300B16479 /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		E1DE6B6D23C50B7500B16479 /* CurrencyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewController.swift; sourceTree = "<group>"; };
+		E1DE6B6F23C50B8200B16479 /* DistanceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceTableViewController.swift; sourceTree = "<group>"; };
+		E1DE6B7123C50B9500B16479 /* WeightTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTableViewController.swift; sourceTree = "<group>"; };
+		E1DE6B7323C50BA000B16479 /* TimeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewController.swift; sourceTree = "<group>"; };
+		E1DE6B7523C5126500B16479 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		E1DE6B7723C521C500B16479 /* UnitsTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsTabViewController.swift; sourceTree = "<group>"; };
+		E1F11CD323C5501400BE9D57 /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		E1F11CD523C5502200BE9D57 /* DistanceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceTableViewCell.swift; sourceTree = "<group>"; };
+		E1F11CD723C5503000BE9D57 /* WeightTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTableViewCell.swift; sourceTree = "<group>"; };
+		E1F11CD923C5503E00BE9D57 /* TimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +82,13 @@
 		E1CD33F523C3986900A4E819 /* UnitConverter */ = {
 			isa = PBXGroup;
 			children = (
+				E1DE6B7723C521C500B16479 /* UnitsTabViewController.swift */,
+				E1DE6B7523C5126500B16479 /* Unit.swift */,
 				E1CD33FC23C3986900A4E819 /* Main.storyboard */,
+				E1DE6B7923C523C000B16479 /* Currency */,
+				E1DE6B7A23C523F200B16479 /* Distance */,
+				E1DE6B7B23C5240800B16479 /* Weight */,
+				E1DE6B7C23C5241900B16479 /* Time */,
 				E1CD340A23C3994C00A4E819 /* Resources */,
 				E1CD340423C3987400A4E819 /* Info.plist */,
 			);
@@ -70,6 +104,46 @@
 				E1CD340123C3987400A4E819 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		E1DE6B7923C523C000B16479 /* Currency */ = {
+			isa = PBXGroup;
+			children = (
+				E1DE6B6523C50B1200B16479 /* CurrencyViewController.swift */,
+				E1DE6B6D23C50B7500B16479 /* CurrencyTableViewController.swift */,
+				E1F11CD323C5501400BE9D57 /* CurrencyTableViewCell.swift */,
+			);
+			path = Currency;
+			sourceTree = "<group>";
+		};
+		E1DE6B7A23C523F200B16479 /* Distance */ = {
+			isa = PBXGroup;
+			children = (
+				E1DE6B6723C50B1F00B16479 /* DistanceViewController.swift */,
+				E1DE6B6F23C50B8200B16479 /* DistanceTableViewController.swift */,
+				E1F11CD523C5502200BE9D57 /* DistanceTableViewCell.swift */,
+			);
+			path = Distance;
+			sourceTree = "<group>";
+		};
+		E1DE6B7B23C5240800B16479 /* Weight */ = {
+			isa = PBXGroup;
+			children = (
+				E1DE6B6923C50B3100B16479 /* WeightViewController.swift */,
+				E1DE6B7123C50B9500B16479 /* WeightTableViewController.swift */,
+				E1F11CD723C5503000BE9D57 /* WeightTableViewCell.swift */,
+			);
+			path = Weight;
+			sourceTree = "<group>";
+		};
+		E1DE6B7C23C5241900B16479 /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				E1DE6B6B23C50B4300B16479 /* TimeViewController.swift */,
+				E1DE6B7323C50BA000B16479 /* TimeTableViewController.swift */,
+				E1F11CD923C5503E00BE9D57 /* TimeTableViewCell.swift */,
+			);
+			path = Time;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +217,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1DE6B7823C521C500B16479 /* UnitsTabViewController.swift in Sources */,
 				E1CD33F723C3986900A4E819 /* AppDelegate.swift in Sources */,
+				E1F11CD623C5502200BE9D57 /* DistanceTableViewCell.swift in Sources */,
+				E1DE6B6C23C50B4300B16479 /* TimeViewController.swift in Sources */,
+				E1F11CDA23C5503E00BE9D57 /* TimeTableViewCell.swift in Sources */,
+				E1DE6B7023C50B8200B16479 /* DistanceTableViewController.swift in Sources */,
+				E1DE6B6823C50B1F00B16479 /* DistanceViewController.swift in Sources */,
+				E1F11CD423C5501400BE9D57 /* CurrencyTableViewCell.swift in Sources */,
+				E1DE6B7423C50BA000B16479 /* TimeTableViewController.swift in Sources */,
+				E1DE6B6E23C50B7500B16479 /* CurrencyTableViewController.swift in Sources */,
+				E1DE6B7623C5126500B16479 /* Unit.swift in Sources */,
+				E1DE6B6623C50B1200B16479 /* CurrencyViewController.swift in Sources */,
 				E1CD33F923C3986900A4E819 /* SceneDelegate.swift in Sources */,
+				E1DE6B6A23C50B3100B16479 /* WeightViewController.swift in Sources */,
+				E1DE6B7223C50B9500B16479 /* WeightTableViewController.swift in Sources */,
+				E1F11CD823C5503000BE9D57 /* WeightTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
