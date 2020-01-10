@@ -8,6 +8,13 @@
 
 import UIKit
 
+/* What I tried:
+ protocol SelectCurrencyDelegate {
+    func selectFromCurrency(selectedFromCurrency: String)
+    func selectToCurrency(selectedToCurrency: String)
+ }
+ */
+
 protocol SelectCurrencyDelegate {
     func selectFromCurrency(selectedFromCurrency: String)
 }
@@ -105,6 +112,10 @@ class CurrencyViewController: UIViewController {
 extension CurrencyViewController: SelectCurrencyDelegate {
     func selectFromCurrency(selectedFromCurrency: String) {
         self.selectedFromCurrency = selectedFromCurrency
+/* What I tried:
+    func selectToCurrency(selectedToCurrency: String) {
+        self.selectedToCurrency = selectedToCurrency
+         } */
     }
 }
    

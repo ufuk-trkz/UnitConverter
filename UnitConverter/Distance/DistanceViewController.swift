@@ -23,16 +23,16 @@ class DistanceViewController: UIViewController {
     @IBOutlet weak var toDistanceButton: UIButton!
     @IBOutlet weak var toDistanceTF: UITextField!
     
-    var selectedFromDistance: String? = "meter [m]"
-    var selectedToDistance: String? = "inch [in]"
+    var selectedFromDistance: String? = "Meter [m]"
+    var selectedToDistance: String? = "Inch [in]"
     
     
-    var distances: [Unit] = [Unit(name: "meter [m]",                                 factor: 1),
-                             Unit(name: "centimeter [cm]", factor: 100),
-                             Unit(name: "kilometer [km]", factor: 0.001),
-                             Unit(name: "mile [mi]", factor: 0.0006213712),
-                             Unit(name: "foot [ft]", factor: 3.280839895),
-                             Unit(name: "inch [in]", factor: 39.37007874)]
+    var distances: [Unit] = [Unit(name: "Meter [m]",                                 factor: 1),
+                             Unit(name: "Centimeter [cm]", factor: 100),
+                             Unit(name: "Kilometer [km]", factor: 0.001),
+                             Unit(name: "Mile [mi]", factor: 0.0006213712),
+                             Unit(name: "Foot [ft]", factor: 3.280839895),
+                             Unit(name: "Inch [in]", factor: 39.37007874)]
     // meter is the base factor
     
     override func viewDidLoad() {

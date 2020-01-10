@@ -12,8 +12,4 @@ struct Unit {
     var name: String?
     var factor: Double
     
-//    init(name: String, factor: Double) {
-//        self.name = name
-//        self.factor = factor
-//    }
 }

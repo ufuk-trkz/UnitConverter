@@ -225,7 +225,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6bL-Aa-q5C"/>
                     </view>
-                    <navigationItem key="navigationItem" id="x6u-Um-xxG"/>
+                    <navigationItem key="navigationItem" title="Currency" id="x6u-Um-xxG"/>
                     <connections>
                         <outlet property="fromCurrencyButton" destination="2HY-lT-o2R" id="RNo-u9-CGc"/>
                         <outlet property="fromCurrencyTF" destination="VbQ-VI-RCZ" id="kaa-87-wL3"/>
@@ -476,7 +476,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JqJ-CO-HCd"/>
                     </view>
-                    <navigationItem key="navigationItem" id="fZC-RF-8SN"/>
+                    <navigationItem key="navigationItem" title="Distance" id="fZC-RF-8SN"/>
                     <connections>
                         <outlet property="fromDistanceButton" destination="NYA-yo-hfE" id="Eof-0O-tb8"/>
                         <outlet property="fromDistanceTF" destination="xdA-ie-jQw" id="iQm-uI-64L"/>
@@ -706,7 +706,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Zr0-pL-BfW"/>
                     </view>
-                    <navigationItem key="navigationItem" id="2jV-da-JNK"/>
+                    <navigationItem key="navigationItem" title="Weight" id="2jV-da-JNK"/>
                     <connections>
                         <outlet property="fromWeightButton" destination="pBz-wA-vRa" id="3qt-hu-n4t"/>
                         <outlet property="fromWeightTF" destination="5Go-jb-Sw1" id="1uR-om-4gV"/>
@@ -791,7 +791,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="eLm-oG-yBI"/>
                     </view>
-                    <navigationItem key="navigationItem" id="00b-gE-DJE"/>
+                    <navigationItem key="navigationItem" title="Time" id="00b-gE-DJE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zi3-aI-6rI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

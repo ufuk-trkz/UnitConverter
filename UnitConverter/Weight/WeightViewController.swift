@@ -23,13 +23,13 @@ class WeightViewController: UIViewController {
     @IBOutlet weak var toWeightButton: UIButton!
     @IBOutlet weak var toWeightTF: UITextField!
     
-    var selectedFromWeight: String? = "kilogram [kg]"
-    var selectedToWeight: String = "pound [lbs]"
+    var selectedFromWeight: String? = "Kilogram [kg]"
+    var selectedToWeight: String = "Pound [lbs]"
     
-    var weights: [Unit] = [Unit(name: "gram [g]", factor: 1),
-                           Unit(name: "kilogram [kg]", factor: 0.001),
-                           Unit(name: "pound [lbs]", factor: 0.0022046226),
-                           Unit(name: "ounce [oz]", factor: 0.0352739619)]
+    var weights: [Unit] = [Unit(name: "Gram [g]", factor: 1),
+                           Unit(name: "Kilogram [kg]", factor: 0.001),
+                           Unit(name: "Pound [lbs]", factor: 0.0022046226),
+                           Unit(name: "Ounce [oz]", factor: 0.0352739619)]
     
     override func viewDidLoad() {
         super.viewDidLoad()
